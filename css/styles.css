@@ -336,6 +336,10 @@
         max-height: 5rem;
         object-fit: contain;
     }
+
+    .logo-hero img{
+        max-height: 80%;
+    }
     
     .line-1,
     .line-2,
@@ -424,7 +428,7 @@
         background-size: cover;
         background-position: center;
         background-blend-mode: soft-light;
-        background-color: #353535bf;
+        background-color: #35353595;
         /* height: 76.5vh; */
     }
 
@@ -537,7 +541,7 @@
     }
     
     .boton:hover {
-        background-color: #d8b553;
+        background-color: #fdd90c;
         box-shadow: 5px 12px 7px #999;
     }
 
@@ -753,7 +757,7 @@
         margin-top: 1rem;
     }
     .proyectos h3 {
-        color: var(--base-color);
+        color: var(--text-color);
         font-size: 3.5rem;
         text-align: center;
         margin: 0;
