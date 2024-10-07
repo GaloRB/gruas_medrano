@@ -337,10 +337,10 @@
         object-fit: contain;
     }
 
-    .logo-hero img{
-        max-height: 80%;
+    /* .logo-hero {
+        margin: 0 0 5rem 1.5rem;
     }
-    
+     */
     .line-1,
     .line-2,
     .line-3 {
@@ -424,11 +424,11 @@
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        background-image: url(../img/grua10.jpeg);
+        background-image: url(../img/hero.jpg);
         background-size: cover;
         background-position: center;
-        background-blend-mode: soft-light;
-        background-color: #35353595;
+        /* background-blend-mode: soft-light;
+        background-color: #35353595; */
         /* height: 76.5vh; */
     }
 
